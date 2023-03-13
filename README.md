@@ -2,7 +2,8 @@
 
 
 
-> Version 1.0
+> Version 1.1
+> Update to IEEE style
 
 This repository includes:
 - latex proposal .

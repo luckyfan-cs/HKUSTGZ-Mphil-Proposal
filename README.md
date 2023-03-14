@@ -2,18 +2,21 @@
 
 
 
-> Version 1.1
+> Version 1.2
 
 =======
-> Update to IEEE style
 
+> Update  IEEE style
+
+> Update 6 pound before and after paragraph
 
 This repository includes:
 - latex proposal .
 
-(We will timely update the version, please follows the latest news!)
+(Please follow the latest news for timely updates on the version. **If you find this project useful, please consider giving us a star.**)
 
 
+![Wechat Group](6871678762831_.pic.jpg) (Update the latest versions, and answer the questions.)
 ## Usage
 
 latex:

@@ -14,6 +14,8 @@
 
 > Main body 12pt
 
+> Add the word template 
+
 This repository includes:
 - latex proposal .
 

@@ -31,6 +31,12 @@ main.tex
 
 ```
 
+word:
+```
+HKUST_GZ_mphil_proposal_word_template.docx
+
+```
+
 ## Requirement
 Please adhere to the template regulations of the RBM and ensure that you comply with the requirements in a thorough and diligent manner. Requirements for thesis proposal:
 

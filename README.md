@@ -13,7 +13,8 @@ This repository includes:
 
 (We will timely update the version, please follows the latest news!)
 
-[Wechat group](6871678762831_.pic.jpg)
+
+![Wechat Group](6871678762831_.pic.jpg)
 ## Usage
 
 latex:

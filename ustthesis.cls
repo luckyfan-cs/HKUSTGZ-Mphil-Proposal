@@ -209,7 +209,12 @@
 % the document style defines \@normalsize instead of \normalsize .  This is
 % done only for \normalsize, not for any other size-changing commands.
 
-\def\@normalsize{\@setsize\normalsize{14.5pt}\xiipt\@xiipt
+%original
+% \def\@normalsize{\@setsize\normalsize{14.5pt}\xiipt\@xiipt
+%make change accoring to the requirement 12 pound
+\def\@normalsize{\@setsize\normalsize{12.0pt}\xiipt\@xiipt
+
+
 \abovedisplayskip 12pt plus3pt minus7pt%
 \belowdisplayskip \abovedisplayskip
 \abovedisplayshortskip  \z@ plus3pt%
@@ -234,10 +239,10 @@
 
 \def\scriptsize{\@setsize\scriptsize{9.5pt}\viiipt\@viiipt}
 \def\tiny{\@setsize\tiny{7pt}\vipt\@vipt}
-\def\large{\@setsize\large{18pt}\xivpt\@xivpt}
-\def\Large{\@setsize\Large{22pt}\xviipt\@xviipt}
-\def\LARGE{\@setsize\LARGE{25pt}\xxpt\@xxpt}
-\def\huge{\@setsize\huge{30pt}\xxvpt\@xxvpt}
+\def\large{\@setsize\large{15pt}\xivpt\@xivpt}
+\def\Large{\@setsize\Large{15pt}\xviipt\@xviipt}
+\def\LARGE{\@setsize\LARGE{15pt}\xxpt\@xxpt}
+\def\huge{\@setsize\huge{15pt}\xxvpt\@xxvpt}
 \let\Huge=\huge
 
 \normalsize  % Choose the normalsize font.
@@ -262,11 +267,38 @@
 \marginparsep 25mm     % Horizontal space between outer margin and marginal note
 
 
+%make change according to the requirements. 2023.3.14
+% 1. The length of thesis proposals is unlimited, but suggest to be approximately 20 pages (excluding references and detailed experimental data).
+
+% 2. References suggest to be more than 20 academic journal papers.
+
+% 3. The proposal written in English should use Times New Roman font and use bold characters for titles, and capitalize the first letter of each substantive in the title.
+
+% (1) Section head: Size 15, 6 pound before and after paragraph.
+
+% (2) Article title: Size 14, 6 pound before and after paragraph
+
+% (3) Item title: Size 12, 0 pound before and after paragraph
+
+% (4) Main body: Size 12, 0 pound before and after paragraph, 1.5 times line spacing.
+
+% 4. Reference annotation form
+
+% Number citations consecutively in square brackets. And number them in superscripts in the main text where it should be.
+
+
+
+
+
+
+
 % VERTICAL SPACING: Modified 24 Nov 87 CRM
 % \topmargin 0pt vice 20pt
                          % Top of page:
-\topmargin 25mm           %    Nominal distance from top of page to top of
+%\topmargin 25mm           %    Nominal distance from top of page to top of
                          %    box containing running head.
+\topmargin 6pt
+                         
 \leftmargin 25mm
 \rightmargin 25mm
 % Chan:
@@ -440,7 +472,7 @@
     \ifnum \c@secnumdepth >\m@ne     % IF secnumdepth > -1 THEN
        {\Lbi \@chapapp~\thechapter} % Print 'Chapter' and number.
       \par
-      \vskip 20pt \fi                  % Space between number and title.
+      \vskip 0pt \fi                  % Space between number and title.
     {\Lbi                        % Title.
     \uppercase{#1}}
     \end{center}
@@ -461,7 +493,7 @@
 %
 
 \def\@makeschapterhead#1{             % Heading for \chapter* command
-  \vspace*{0pt}                     % Space at top of page.
+  \vspace*{6pt}                     % Space at top of page.
   { \begin{center}
     {\Lbi                        % Title.
     \uppercase{#1}\par}
@@ -570,7 +602,7 @@
 \def\subsection{\@startsection{subsection}{2}{\z@}{-3.25ex plus -1ex minus
    -.2ex}{1.5ex plus .2ex}{\large\bf}}
 \def\subsubsection{\@startsection{subsubsection}{3}{\z@}{-3.25ex plus
-   -1ex minus -.2ex}{1.5ex plus .2ex}{\normalsize\bf}}
+   -1ex minus -.2ex}{1.5ex plus .2ex}{\large\bf}}
 \def\paragraph{\@startsection
      {paragraph}{4}{\z@}{3.25ex plus 1ex minus .2ex}{-1em}{\normalsize\bf}}
 \def\subparagraph{\@startsection

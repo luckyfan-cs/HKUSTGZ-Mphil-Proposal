@@ -13,7 +13,7 @@
 This repository includes:
 - latex proposal .
 
-(We will timely update the version, please follows the latest news!)
+(We will timely update the version, please follow the latest news!)
 
 
 ![Wechat Group](6871678762831_.pic.jpg)

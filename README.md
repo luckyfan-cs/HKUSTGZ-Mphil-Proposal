@@ -5,8 +5,9 @@
 > Version 1.1
 
 =======
-> Update to IEEE style
 
+> Update  IEEE style
+> Update 6 pound before and after paragraph
 
 This repository includes:
 - latex proposal .

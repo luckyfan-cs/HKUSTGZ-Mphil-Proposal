@@ -3,6 +3,10 @@
 
 
 > Version 1.1
+<<<<<<< HEAD
+=======
+> Update to IEEE style
+>>>>>>> c98b47f4e1c4d5cfae2032232a064764eb51814c
 
 This repository includes:
 - latex proposal .

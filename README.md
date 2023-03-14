@@ -2,13 +2,17 @@
 
 
 
-> Version 1.2
+> Version 1.3
 
 =======
 
 > Update  IEEE style
 
 > Update 6 pound before and after paragraph
+
+> Section head 15pt 
+
+> Main body 12pt
 
 This repository includes:
 - latex proposal .
